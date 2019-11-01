@@ -294,6 +294,100 @@
   color: rgb(255, 30, 30);
 }
 
+/*
+  CSS for admission.html starts from here
+ */
+
+.content-info{
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 40px;
+}
+
+.heading-info{
+  margin-bottom:20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.side-img{
+  max-width:100%;
+  height:auto;
+  border:15px solid #ccc;
+}
+
+.highlighter{
+  background-color:#dc3545;
+  color:#fff;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.heading-para{
+  text-align: center;
+  margin-top:30px;
+  font-size: 20px;
+  width: 70%;
+}
+
+.adj-img{
+  max-width:100%;
+  height:auto;
+}
+
+.col-info{
+  margin-top: 40px;
+}
+
+.adj-info{
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 10px 10px;
+}
+
+.extra-info{
+  margin-top:50px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.dark{
+  font-weight: bold;
+}
+
+.list-items{
+  margin-top: 60px;
+}
+
+.list-items .list-group-item{
+  padding:0px;
+  margin-bottom: 20px;
+}
+
+.list-header{
+  padding:15px;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.list-para{
+  padding:20px;
+}
+
+
+/*
+  CSS for admission.html ends here
+ */
+
+
+/*
+  @media queries starts from here
+ */
+
 @media (max-width:1025px){
   .mobile-nav{
     display:block;
@@ -386,65 +480,4 @@
   .main-footer ul{
     padding-left:0px;
   }
-}
-
-/*
-  CSS for admission.html starts from here
- */
-
-.content-info{
-  background-color: #f4f4f4;
-  padding: 10px;
-  margin-bottom: 20px;
-  padding-bottom: 40px;
-}
-
-.heading-info{
-  margin-bottom:20px;
-  font-weight: bold;
-  text-decoration: underline;
-}
-
-.side-img{
-  max-width:100%;
-  height:auto;
-  border:15px solid #ccc;
-}
-
-.highlighter{
-  background-color:#dc3545;
-  color:#fff;
-  text-align: center;
-  padding: 20px;
-  margin-bottom: 20px;
-  margin-top: 30px;
-}
-
-.heading-para{
-  text-align: center;
-  margin-top:30px;
-  font-size: 20px;
-  width: 70%;
-}
-
-.adj-img{
-  max-width:100%;
-  height:auto;
-}
-
-.col-info{
-  margin-top: 40px;
-}
-
-.adj-info{
-  background-color: #fff;
-  padding: 10px;
-  box-shadow: 0 10px 10px;
-}
-
-.extra-info{
-  margin-top:50px;
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
 }
